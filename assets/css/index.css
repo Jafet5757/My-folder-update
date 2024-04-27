@@ -1,0 +1,108 @@
+/*Creamos una variable con el color principal*/
+:root {
+    --main-color: #49108B;
+    --secondary-color: #7E30E1;
+    --contrast-color: #F3F8FF;
+    --third-color: #E26EE5;
+}
+
+/*Reglas de colores*/
+.bg-pop {
+    background-color: var(--main-color);
+}
+
+.text-pop {
+    color: var(--main-color);
+}
+
+.btn-pop {
+    background-color: var(--main-color);
+    color: var(--contrast-color);
+}
+
+.btn-pop:hover {
+    background-color: var(--secondary-color);
+    color: var(--contrast-color);
+}
+
+.btn-pop:focus {
+    background-color: var(--main-color);
+    color: var(--contrast-color);
+}
+
+.btn-outline-pop{
+  border-color: var(--main-color);
+  color: var(--main-color);
+}
+
+.btn-outline-pop:hover{
+  background-color: var(--main-color);
+  color: var(--contrast-color);
+}
+
+.btn-outline-pop:focus{
+  background-color: var(--main-color);
+  color: var(--contrast-color);
+}
+
+a{
+  color: var(--main-color);
+}
+
+.big-text {
+    font-size: 6em;
+}
+
+.border-pop {
+    border-color: var(--secondary-color);
+}
+
+.active-pop {
+    background-color: var(--secondary-color);
+    color: var(--contrast-color);
+}
+
+.a-title {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-contrast {
+    background-color: var(--contrast-color);
+    color: var(--main-color);
+}
+
+.btn-contrast:hover {
+    background-color: var(--third-color);
+    color: var(--contrast-color);
+}
+
+.btn-contrast:focus {
+    background-color: var(--third-color);
+    color: var(--contrast-color);
+}
+
+/*List group*/
+.a-title:hover {
+    color: var(--main-color);
+}
+
+.img-banner {
+    /* margin-top: 70px;
+    margin-left: 50px;
+    width: 270px;
+    height: auto;
+    display: block; */
+    height: 18rem;
+}
+
+.icon{
+    font-size: 1.5em;
+    color: var(--main-color);
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
