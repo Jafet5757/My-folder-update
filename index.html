@@ -176,9 +176,9 @@
         <p class="fs-1 mt-5" id="projects">Projects</p>
       </div>
     </div>
-    <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="row row-cols-1 row-cols-md-2 g-4" id="projects-container">
     <div class="col">
-      <div class="card mx-auto" style="width: 18rem;">
+      <div class="card mx-auto" style="width: 18rem; height: 100%;">
         <img src="https://ralfvanveen.com/wp-content/uploads/2021/06/Placeholder-_-Glossary.svg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
@@ -230,14 +230,18 @@
   <!-- Contact me -->
   <div class="bg-pop rounded px-3 pt-3 mt-5 text-white">
     <div class="row mt-5">
-      <div class="col-md-4 col">
+      <div class="col">
+        <div class="d-flex justify-content-center">
           <img src="./assets/img/bg-clear.png" alt="Yo" class="img-banner">
         </div>
-        <div class="col">
-          <h2>Do you have a project?</h2>
-          <p class="">I am available for freelance work. Connect with me via email</p>
-          <a href="#contact-me" class="btn btn-contrast px-5">Contact me</a>
+      </div>
+      <div class="col text-center">
+        <h2>Do you have a project?</h2>
+        <p class="">I am available for freelance work. Connect with me via email</p>
+        <div class="d-flex justify-content-center">
+          <a href="#contact-me" class="btn btn-contrast px-5 my-3">Contact me</a>
         </div>
+      </div>
     </div>
   </div>
 </div>
@@ -268,6 +272,7 @@
 
 <!-- Scripts -->
 <script src="./assets/js/education.js"></script>
+<script src="./assets/js/projects.js"></script>
 
 </body>
 </html>

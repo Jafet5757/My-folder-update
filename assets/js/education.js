@@ -11,7 +11,7 @@ let Data = null;
  * @returns item completo listo para implementar en html
  */
 let item = (text, active, i)=> `<li class="list-group-item ${active?'active-pop':''}" onclick="changeInformation(${i})">${text}</li>`;
-let subtitle = subtitle => `<a href="#" class="a-title">${subtitle}</a>`;
+let subtitle = (subtitle, url) => `<a href="${url}" class="a-title">${subtitle}</a>`;
 let parragraph = text => `<p class="text-secondary">${text}</p>`;
 let link = (url, text) => `<li class="text-secondary"><a href="${url}" target="_blank">${text}</a></li>`;
 
@@ -45,7 +45,7 @@ loadTitles();
 const loadInformation = (data) => {
   containerInformation.innerHTML = '';
   // Cargamos el titulo
-  containerInformation.innerHTML += subtitle(data.subtitle);
+  containerInformation.innerHTML += subtitle(data.subtitle[0], data.subtitle[1]);
   // si el tipo es texto
   if (data.type === 'text') {
     containerInformation.innerHTML += parragraph(data.content);

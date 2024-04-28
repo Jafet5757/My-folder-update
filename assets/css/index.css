@@ -46,7 +46,13 @@
 }
 
 a{
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+a:hover{
   color: var(--main-color);
+  text-decoration: underline;
 }
 
 .big-text {
