@@ -106,3 +106,12 @@ a{
     display: flex;
     align-items: center;
 }
+
+.list-group-item:hover{
+  cursor: pointer;
+  background-color: var(--contrast-color);
+}
+
+.list-group-item:hover, .list-group-item.active{
+  color: var(--main-color);
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Artificial intelligence engineering",
+    "subtitle": "National Polytechnic Institute",
+    "type": "text",
+    "content": "Mexico, university </br> Superior School of Computing </br> 2021 - 2025"
+  },
+  {
+    "title": "Programming Technician",
+    "subtitle": "National Polytechnic Institute",
+    "type": "text",
+    "content": "Mexico, high school </br> Juan de Dios Batiz Paredes N ° 9 Center for Scientific and Technological Studies </br> 2018 - 2021"
+  },
+  {
+    "title": "Curses",
+    "subtitle": "",
+    "type": "list",
+    "content": [
+      {"type":"link","text":"Desarrollo de aplicaciones web I, Google Activate", "url":"https://drive.google.com/file/d/1wDWRrzJraF1t_VfJK3nYRrxKyk0jueKM/view"},
+      {"type":"link","text":"Desarrollo de aplicaciones web II, Google Activate", "url":"https://drive.google.com/file/d/1t3UvHrltFjCeeYvee809p1801lQtxJO3/view"},
+      {"type":"link","text":"Ciberseguridad en el teletrabajo, Google Activate", "url":"https://drive.google.com/file/d/16oRX10ry2a8H40lKMzVe6UGLOPCQIOHm/view"},
+      {"type":"link","text":"Fundamentos de marketing digital, Google Activate", "url":"https://drive.google.com/file/d/1fTKQvi4_1onGPZnq5xNa9C7bGYm0oie_/view"},
+      {"type":"link","text":"Git y GitHub: sistema de control de versiones, Udemy", "url":"https://www.udemy.com/certificate/UC-ffd59779-f96f-4e87-80c4-61f0a8372aaf/"},
+      {"type":"link","text":"Informática forense y peritaje informático, Udemy", "url":"https://www.udemy.com/certificate/UC-57d0dc06-7fa1-46ba-b4cd-3bb9e61e820a/"},
+      {"type":"link","text":"Matlab Onramp, MathWorks", "url":"https://matlabacademy.mathworks.com/progress/share/certificate.html?id=85e62bc8-179b-4437-917c-10cd07159b69&"},
+      {"type":"link","text":"Comunicación asertiva con mis clientes, Secretaría de Desarrollo Económico del Gobierno de la Ciudad de México", "url":"https://drive.google.com/file/d/1eqNDXKX8GywQ4YIZqFevxk4DqGa8VuTS/view"},
+      {"type":"link","text":"Image Processing Onramp, MathWorks", "url":"https://matlabacademy.mathworks.com/progress/share/certificate.html?id=309b4b90-53b0-4da4-b8a4-a1673c2aac9c&"},
+      {"type":"link","text":"Curso maestro de Web Scraping: Extracción de Datos de la Web, Udemy", "url":"https://www.udemy.com/certificate/UC-2b982e40-3958-4c6f-87f3-642f6c3b5691/"}
+    ]
+  }
+]
