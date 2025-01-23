@@ -1,5 +1,62 @@
 [
   {
+    "name": "Lilia",
+    "description": "Web app with models of artificial intelligence to get a conversation simulating a teacher, native or anyone. Use card generated automatically, questions or write a letter and get feedback.",
+    "technologies": [
+      "Python",
+      "Flask",
+      "Fast API",
+      "OpenAI API",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+      "MongoDB"
+    ],
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/Jafet5757/Lilia---english-teacher"
+      }
+    ],
+    "images": [
+      "p-lilia.png",
+      "p-lilia1.png",
+      "p-lilia2.png",
+      "p-lilia3.png"
+    ]
+  },
+  {
+    "name": "BDOF",
+    "description": "A system that retrieves information from the DOF using natural language. Make queries, receive notifications about important new content, and get personalized explanations of the information.",
+    "technologies": [
+      "MongoDB",
+      "Node.js",
+      "Express.js",
+      "Figma",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+      "Python",
+      "LangChain",
+      "NLP"
+    ],
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "Private"
+      }
+    ],
+    "images": [
+      "pbdof0.jpg",
+      "pbdof1.jpg",
+      "pbdof2.jpg",
+      "pbdof3.jpg",
+      "pbdof4.jpg"
+    ]
+  },
+  {
     "name":"For education",
     "description":"Promote free education and quality educational content stored on the YouTube platform, where everyone can create and share knowledge",
     "technologies":[
